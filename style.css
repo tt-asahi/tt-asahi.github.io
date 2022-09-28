@@ -1,0 +1,44 @@
+body {
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;*/
+}
+
+h1, h2, h3{
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+h2{
+   border-bottom: 1px solid #a3057e; 
+}
+
+ol.answers{
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover{
+    border: 0.1em solid #0505a3; 
+    background-color: aqua;
+}
+
+ul li, ol li{
+    padding: 1em;
+    list-style-position: inside;
+    padding: 0.9em;
+    cursor: pointer;
+}
+
+#section-correct-answer{
+    display: none;
+}
+
+span#correct-answer{
+    font-weight: bold;
+    color: #a3057e;
+}
+
+#main{
+    padding: 0 1.5em;
+}
+
+div.section{
+    margin-top: 2em;
+}
