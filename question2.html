@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="questions.js" defer></script>
     <title>問題2 | Quiz!</title>
 </head>
 <body>
@@ -14,30 +15,32 @@
         <div class="section">
             <h2>問題2</h2>
             <p>
-                任天堂の人気ゲームソフトの一つ「ゼルダの伝説」ですが、一番最初の作品が発売された日付はいつ？
+                SWALLOWのAPIの数は？
             </p>
 
 
             <h3>選択肢</h3>
-            <ol class="answers">
-                <li>1986/02/21</li>
-                <li>1989/04/21</li>
-                <li>1990/11/21</li>
-                <li>2004/11/21</li>
+            <ol class="answers" data-id="question2">
+                <li data-answer="A">17</li>
+                <li data-answer="B">31</li>
+                <li data-answer="C">84</li>
+                <li data-answer="D">116</li>
             </ol>
         </div>
 
         <div id="section-correct-answer" class="section">
             <h2>答え</h2>
             <p>
-                <span id="correct-answer">A. 1986/02/21</span>
-                <br />
-                ゼルダの伝説の最初の作品は、1986/02/21にファミコンディスクシステムのディスク書き換え第一弾として発売されました。
+                <span id="correct-answer">D. 116</span><br />
+                SWALLOWのAPIは、au PAYアプリ向けが84、IBIS向け31、その他システム向けが1<br>
+                合計116本あります！
             </p>
+            <a href="question3.html">次へ</a>
         </div>
 
         <div class="section">
             <a href="./index.html">戻る</a>
+            
         </div>
     </div>
 </body>
